@@ -9,117 +9,125 @@ Clone the Github repository and create a Django admin interface
 ### Step 2:
 Write HTML and CSS code for desigining book cover page and execute them.
 ## Code:
-    .bookpage{
-        width: 400px;
-        height: 600px;
-        color:red;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-image: url(./background.jpeg);
-        background-size: cover;
-    }
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+         <style>
+
+        .bookpage{
+            width: 400px;
+            height: 600px;
+            color:red;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(./background.jpeg);
+            background-size: cover;
+        }
+            
+
+        .insight{
+            color: brown;
+
+        }
+
         
-
-    .insight{
-        color: brown;
-
-    }
-
-    
-    .hrstyle{
-        width:100px;
-    }
-    .author{
-    
-        display: inline;
-        position: relative;
-        color: rgb(0, 89, 255);
-        top:190px;
+        .hrstyle{
+            width:100px;
+        }
+        .author{
         
-        font-family:Georgia;
-        font-size: medium;
-    }
-    .booktitle{
-        font-family: 'Courier New', Courier, monospace;
-        font-size: larger;
-        text-align: center;
-        position: relative;
-        top: 30px;
-    
-    }
-    .id {
-        width:400px;
-        position: relative;
-        top:180px;
+            display: inline;
+            position: relative;
+            color: red;
+            top:190px;
+            
+            font-family:Georgia;
+            font-size: medium;
+        }
+        .booktitle{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 30px;
         
-    }
-    .pub{
-        font-size: medium;
-        position: relative;
-        top:155px;
-        left:330px;
-    }
-    .ed{
-        color: blue;
-        font-size: medium;
-        font-family: Verdana;
-        position:relative;
-        top:85px;
+        }
+        .id {
+            width:400px;
+            position: relative;
+            top:180px;
+            
+        }
+        .pub{
+            font-size: medium;
+            position: relative;
+            top:155px;
+            left:330px;
+        }
+        .ed{
+            color: blue;
+            font-size: medium;
+            font-family: Verdana;
+            position:relative;
+            top:85px;
 
-    }
-    .subtitle{
-        font-family:Tahoma;
-        font-size: large;
-        position: relative;
-        top:40px;
-    }
-    .mypic{
-        position: relative;
-        top: 135px;
-        left: 260px;
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-    }
-    </style>
-    <title>Book Cover Page</title>
-</head>
-<body>
-    <div class="bookpage">
-        <div class="insight">
-            SEC INSIGHT
+        }
+        .subtitle{
+            font-family:Tahoma;
+            font-size: large;
+            position: relative;
+            top:40px;
+        }
+        .mypic{
+            position: relative;
+            top: 135px;
+            left: 260px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+        }
+        </style>
+        <title>Book Cover Page</title>
+    </head>
+    <body>
+        <div class="bookpage">
+            <div class="insight">
+                SEC INSIGHT
+            </div>
+            <div class="hrstyle">
+                <hr style="color: red;">
+            </div>
+            <div class="booktitle">
+                <h1>Fundamentals of Web Application Development</h1></div>
+            <div class="subtitle">
+                HTML and CSS Combined with Django Architecture
+            </div>
+            <div class="mypic">
+                <img src="/home/sec/Downloads/WhatsApp Image 2023-12-29 at 3.09.30 PM.jpeg" width="130" height="145" alt="">
+            </div>
+            <div class="id">
+                <hr style="color: rgba(25, 0, 255, 0.877);">
+            </div>
+            <div class="author">
+               <p><bBHARATH.N</b></p>
+            </div>
+            <div class="pub">
+                SEC
+            </div>
+            <div class="ed">
+                <b>First Edition</b>
+            </div>
         </div>
-        <div class="hrstyle">
-            <hr style="color: rgba(255, 0, 0, 0);">
-        </div>
-        <div class="booktitle">
-            <h1>Fundamentals of Web Application Development</h1></div>
-        <div class="subtitle">
-            HTML and CSS Combined with Django Architecture
-        </div>
-        <div class="mypic">
-            <img src="![Bharath](https://github.com/BHARATHNATRAJAN/cover-page-design/assets/147473529/ae0758cb-b729-40e5-92dd-0efb315c00d9)
-" width="130" height="145" alt="">
-        </div>
-        <div class="id">
-            <hr style="color: rgba(0, 110, 255, 0.661);">
-        </div>
-        <div class="author">
-           <p><b>Your name</b>BHARATH.N</p>
-        </div>
-        <div class="pub">
-            SEC
-        </div>
-        <div class="ed">
-            <b>First Edition</b>
-        </div>
-    </div>
-</body>
+    </body>
+</html>
 
 ## Output:
-Include your output screenshot here
+![Screenshot from 2023-12-29 15-26-24](https://github.com/BHARATHNATRAJAN/cover-page-design/assets/147473529/1114bbaf-d26f-40e0-a638-e94fd61bbc8a)
+
 
 ## Result:
-Write your result
+Successfully created front page
